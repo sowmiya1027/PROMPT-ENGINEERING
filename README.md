@@ -248,7 +248,7 @@ Example: ChatGPT predicts the next suitable token to generate a sentence.
 
 
 ## 8. Real-World Applications of Generative AI
-
+![Real World Applications](images/generative-ai.png)
 https://images.openai.com/static-rsc-4/TBk2Sz6bYZxCKo6p2UwbwW11XeaePLs-VQ28wDf6Y5_jH_wWY1n99qe44Ig3AhTQAUxy3qrv3FWhe3d_N-wqfg1YkPDoiX9e5di3IVy6d2iz_AVHZw5cmLS5pMwCQIOwH-p8koVSkxHRyJ189kQus0CgCEajzTHwpMvS20ipggY?purpose=inline
 
 [AI in Education: Top Trends for October 2025 | AIapps](https://images.openai.com/static-rsc-4/S7otFzUgCfUhQLVD5VSl4LAGyuQBSVGpF8fbIalfyVyP8xvoKsbcC5exheoXNFgXOTlK1wv7X3fuGG555xnbdbEyNu998Pzf3-JGlupFVHaenXFUCCKK16_u0oxzWKFTNX-igvwNII-GBQejdVwbcR1kjPjS6EJP7OoS67eBxpk?purpose=inline)
