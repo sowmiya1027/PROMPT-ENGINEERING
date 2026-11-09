@@ -248,14 +248,13 @@ Example: ChatGPT predicts the next suitable token to generate a sentence.
 
 
 ## 8. Real-World Applications of Generative AI
-![Real World Applications](images/generative-ai.png)
+
 https://images.openai.com/static-rsc-4/TBk2Sz6bYZxCKo6p2UwbwW11XeaePLs-VQ28wDf6Y5_jH_wWY1n99qe44Ig3AhTQAUxy3qrv3FWhe3d_N-wqfg1YkPDoiX9e5di3IVy6d2iz_AVHZw5cmLS5pMwCQIOwH-p8koVSkxHRyJ189kQus0CgCEajzTHwpMvS20ipggY?purpose=inline
 
 [AI in Education: Top Trends for October 2025 | AIapps](https://images.openai.com/static-rsc-4/S7otFzUgCfUhQLVD5VSl4LAGyuQBSVGpF8fbIalfyVyP8xvoKsbcC5exheoXNFgXOTlK1wv7X3fuGG555xnbdbEyNu998Pzf3-JGlupFVHaenXFUCCKK16_u0oxzWKFTNX-igvwNII-GBQejdVwbcR1kjPjS6EJP7OoS67eBxpk?purpose=inline)
 
 [Mutation du développement logiciel en 2026 : de la Production de Code à l’Ingénierie de Systèmes](https://images.openai.com/static-rsc-4/ZJLzyBcPVzQoSOJJtTr3kuIxX5aUtsneMzN2Pm1YYK4PIbpeISeyXkfw5rpD5lI0KLsgUuUHdg6HN6nZF6Ppa1tTPWn2gxctQy7pp4DPK0dDZMNS9ZTPYyzo0vfEcizKK1eVqUx9QTSQuTd2R2FV24VLBFpqd5SqN336jen1IYA?purpose=inline)
 
-5
 
 ### 1. Healthcare
 
@@ -459,7 +458,7 @@ Each architecture follows a different approach to generating new content
 
 ## 2. Transformer Architecture
 
-[ILLUSTRATION DU TRANSFORMER - Loïck BOURDOIS](https://images.openai.com/static-rsc-4/b1wZ30_ofAWmZD1o2sO2FFsbv5dZOXWREMRjIyOPBl02GfYLS0axCjORwPaBVuhDfPnHXSKIvL8KWwWB6dR-5cbm1H0BQy4oVz8vlPCY_MX0PJlI4-MY40weVC60CGswMUoDpFoOd4IXTVV0kEOQqGybQOixW_Q4SgLlvZFF3gM?purpose=inline)
+<https://images.openai.com/static-rsc-4/b1wZ30_ofAWmZD1o2sO2FFsbv5dZOXWREMRjIyOPBl02GfYLS0axCjORwPaBVuhDfPnHXSKIvL8KWwWB6dR-5cbm1H0BQy4oVz8vlPCY_MX0PJlI4-MY40weVC60CGswMUoDpFoOd4IXTVV0kEOQqGybQOixW_Q4SgLlvZFF3gM?purpose=inline/>
 
 [lbourdois.github.io](https://lbourdois.github.io/blog/nlp/Transformer/?utm_source=chatgpt.com)
 
