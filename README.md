@@ -455,7 +455,7 @@ The four major architectures used in Generative AI are:
 3. Variational Autoencoders (VAEs)
 4. Diffusion Models
 
-Each architecture follows a different approach to generating new content.
+Each architecture follows a different approach to generating new content
 
 ## 2. Transformer Architecture
 
