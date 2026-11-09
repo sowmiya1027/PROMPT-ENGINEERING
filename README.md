@@ -92,9 +92,11 @@ Examples:
 
 ## 2. Working Principles of Generative AI
 
-Generative AI works by learning patterns, relationships and structures from large amounts of training data. It uses these learned patterns to generate new content.
 
 The working process involves the following steps:
+
+<img width="531" height="547" alt="image" src="https://github.com/user-attachments/assets/c7f7ec95-96c8-4fad-b9ad-04fa3601ca02" />
+
 
 Step 1: Data Collection
 
@@ -251,6 +253,8 @@ Example: ChatGPT predicts the next suitable token to generate a sentence.
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/83067424-b396-4310-9114-898e869d5fcc" />
 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/34259100-1a87-4c2c-b52b-8555eaec8e07" />
+
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/dc295d1b-26bb-48fe-ab82-eaf2beaede61" />
 
 
 ### 1. Healthcare
@@ -1297,12 +1301,7 @@ Let us follow a text prompt such as *"Explain photosynthesis to a child."*
 | **Decoder / generator** | Produces the output | The "writer" or "artist" |
 | **Training process** | Adjusts weights by reducing errors | Practice and correction |
 | **Fine-tuning and RLHF** | Aligns the model with human preferences | Coaching for better behavior |
-| **RAG (retrieval)** | Looks up outside documents before answering | Open-book exam instead of memory only |
-| **Safety filters** | Block harmful or inappropriate outputs | Quality control |
-| **Application layer (UI/API)** | Lets people and software use the model | The chat window or app |
-| **Infrastructure** | GPUs/TPUs and cloud servers | The powerful "kitchen equipment" |
 
-**Main model families used inside this architecture:** Transformers (text, code), diffusion models (images, video), GANs and VAEs (images, variations, compression).
 
 ---
 
@@ -1561,28 +1560,8 @@ Scaling does not solve every problem. Large models still have several limitation
 | Security and privacy  | Protecting user information and training data is challenging. |
 | Evaluation            | Measuring reasoning and overall model quality is difficult.   |
 
-## 9. Real-World Examples of Scaling
 
-1\. GPT
-
-Larger GPT models can perform tasks such as content generation, summarization, coding, and question answering.
-
-2\. Google Gemini
-
-It can process different types of information, including text, images, and other supported media, and assist with complex tasks.
-
-
-
-3\. Claude
-
-It can analyze documents, summarize information, write content, and assist with programming.
-
-
-4\. Meta Llama
-
-Different model sizes provide options for applications with different performance and hardware requirements.
-
-## 10. Advantages and Disadvantages of Scaling
+## 9. Advantages and Disadvantages of Scaling
 
 | Advantages                       | Disadvantages                   |
 | -------------------------------- | ------------------------------- |
@@ -1593,7 +1572,7 @@ Different model sizes provide options for applications with different performanc
 | Supports complex applications    | Difficult to train and maintain |
 | Better performance across tasks  | May reproduce data bias         |
 
-## 11. Conclusion
+## 10. Conclusion
 
 Scaling plays an important role in improving the capabilities of Large Language Models. Increasing model parameters, training data, and computational resources can improve accuracy, reasoning, language understanding, and content generation.
 Scaling laws help researchers understand the relationship between these factors and model performance. However, scaling also increases training costs, energy consumption, hardware requirements, and other challenges.
@@ -1681,8 +1660,7 @@ Research (the **Chinchilla study** by DeepMind, 2022) showed that many early lar
 - **Multi-step arithmetic** that small models fail at but larger ones handle
 - **Few-shot learning:** learning a new task from just a few examples in the prompt
 - **Chain-of-thought reasoning:** working through a problem step by step
-- **Following complex instructions** and translating between languages never explicitly trained as pairs
-- **Writing and debugging code** at a useful level
+
 
 *Example:* Give a small model: "If Ravi has 3 boxes with 12 pencils each and gives away 10, how many remain?" It may guess. A larger model, prompted to think step by step, calculates 36 - 10 = 26.
 
@@ -2028,15 +2006,6 @@ Evaluation is the process of testing the trained LLM to check its performance, a
 
 The model is tested using different questions and tasks.
 
-Important evaluation factors:
-
-1. Accuracy: Checks whether the answers are correct.
-2. Fluency: Checks whether the generated sentences are clear and natural.
-3. Reasoning: Tests the ability to solve logical and mathematical problems.
-4. Safety: Checks whether the model produces harmful or inappropriate responses.
-5. Bias: Identifies unfair or biased outputs.
-6. Efficiency: Measures response time and computational requirements.
-
 Example:
 
 The model is asked:
@@ -2091,14 +2060,6 @@ Generate code, debug programs, and explain programming concepts.
 
 Explain difficult topics, summarize notes, and create practice questions.
 
-4\. Healthcare
-
-Assist with medical documentation, summarization, and information retrieval under professional supervision.
-
-
-5\. Language Translation
-
-Translate text between different languages and improve communication.
 
 ## 6. Advantages of LLMs
 
@@ -2173,10 +2134,7 @@ Raw data is messy, so it is cleaned before training.
 - **Deduplication:** removing repeated documents (otherwise the model memorizes them)
 - **Quality filtering:** dropping low-quality or gibberish content
 - **Language detection:** keeping the intended languages
-- **Removing personal information:** phone numbers, emails, ID numbers
-- **Safety filtering:** reducing toxic or illegal content
-- **Decontamination:** removing test questions so evaluation stays fair
-
+- 
 *Example:*
 Raw: `<div>Buy now!!! CLICK HERE</div> Photosynthesis is how plants make food.`
 Cleaned: `Photosynthesis is how plants make food.`
@@ -2214,12 +2172,6 @@ Almost all modern LLMs use the **Transformer** architecture, usually the **decod
 - **Residual connections and normalization:** keep training stable
 - **Output layer:** produces a probability for every token in the vocabulary
 
-**Design choices made here:**
-- Number of layers (for example, 32 to 100+)
-- Size of vectors and number of attention heads
-- Context window length (how much text it can read at once)
-- Possibly **Mixture of Experts (MoE)**, where only parts of the model activate per token
-
 *Example:* In "The animal didn't cross the road because **it** was tired," attention helps link "it" to "animal."
 
 ---
@@ -2234,13 +2186,6 @@ Input: "The sun rises in the ___"
 Target: "east"
 If the model guesses "west," it gets an error score (**loss**), and the parameters are adjusted slightly to do better next time.
 
-**How it works:**
-1. Feed a batch of text.
-2. Model predicts the next tokens.
-3. Compare with the real tokens and compute loss.
-4. **Backpropagation** calculates how to adjust each parameter.
-5. An **optimizer** (such as Adam) updates the parameters.
-6. Repeat trillions of times.
 
 **Scale:** thousands of GPUs/TPUs running for weeks or months, with training spread across machines (data, model, and pipeline parallelism). Checkpoints are saved regularly.
 
@@ -2335,9 +2280,7 @@ Building an LLM-based **study assistant**:
 | Architecture | Choose a decoder-only Transformer with chosen layers and context length |
 | Pre-training | Learn language by predicting next tokens |
 | Fine-tuning | Teach it to answer student questions clearly using example Q&A pairs |
-| RLHF | Reward explanations students rate as clear and correct |
-| Evaluation | Test on exam-style questions, check for errors and bias, red-team |
-| Deployment | Release as an app with safeguards and monitor feedback |
+
 
 ---
 
@@ -2350,10 +2293,6 @@ Building an LLM-based **study assistant**:
 | Tokenization | Convert text to numbers | Token IDs |
 | Architecture | Design the "brain" | Transformer blueprint |
 | Pre-training | Learn language and facts | Base model |
-| Fine-tuning | Learn to follow instructions | Instruction-following model |
-| RLHF | Align with human preferences | Helpful, safer assistant |
-| Evaluation | Verify quality and safety | Test reports |
-| Deployment | Serve users reliably | Live product |
 
 ---
 
