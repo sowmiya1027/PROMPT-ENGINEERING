@@ -248,9 +248,9 @@ Example: ChatGPT predicts the next suitable token to generate a sentence.
 
 
 ## 8. Real-World Applications of Generative AI
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/83067424-b396-4310-9114-898e869d5fcc" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/83067424-b396-4310-9114-898e869d5fcc" />
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/34259100-1a87-4c2c-b52b-8555eaec8e07" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/34259100-1a87-4c2c-b52b-8555eaec8e07" />
 
 
 ### 1. Healthcare
@@ -712,30 +712,24 @@ Example: When the user enters "A cat sitting under a tree", the diffusion model 
 
 ## 6. Real-World Examples
 
-<img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/c7d306a5-688c-4171-808d-32714f103926" />
+<img width="70" height="62" alt="image" src="https://github.com/user-attachments/assets/ce9f1292-4d4c-4562-b851-64c7925f2447" />
 
 
 Transformer – ChatGPT
 
 Generates human-like text, answers questions and assists with coding.
 
-[Generate Realistic Human Face Using Gan : New Ai Method Generates Realistic Human Faces - Stylegan is a generative adversarial network (gan) introduced by nvidia researchers in.](https://images.openai.com/static-rsc-4/jrmRf57qyVGMECOstXXotYyj88F9dXTcsTLqAXGUhZgyhrgXu51gO5ZsFhifvIcXU4fX2yMuH7GwzEeFB4Zvxbf7JnlHuSECHPLzZ_TTaEIBBJwU94D4sQSYQ-OVxlw4DwuZWbEA8qS0xgZ5dtLnbX-xhYsqOGFo-8jgfI6dVGI?purpose=inline)
+<img width="70" height="75" alt="image" src="https://github.com/user-attachments/assets/393abf14-31d7-4e6c-b3c3-38c987e31aef" />
 
 GAN – StyleGAN
 
 Generates realistic human face images.
 
-[Variational AutoEncoder](https://images.openai.com/static-rsc-4/OwjxtCKZA7vkHIem25ztxSSayln4BsGw6iP0HDnugWor7AJGhrtohcnPkMSuxRym_cJttExxtP8l_iwcGA8Qhe_WIUDTIOa3nFJx9BBw3-GclPYtUOV8W0T767fbH9qNZo5kbAhQUexawgR_As2-gBed0fuIlXRezOqTAAuXE4s?purpose=inline)
+<img width="63" height="62" alt="image" src="https://github.com/user-attachments/assets/75dcbc14-6f0f-4ab6-bd8d-fbe1edd82bac" />
 
 VAE – Variational Autoencoder
 
 Generates new handwritten digit images using learned latent representations.
-
-[diffusers/stable-diffusion-xl-inpainting at main](https://images.openai.com/static-rsc-4/koq02FBopholbqbhHdiQTNdKbq2mhHAVCcv3JGCAA_-gF3CCV_7U1pvN6II6C8vZrRK3YX0quYLtps6QF9A1QjxgfxbC3MZNJtCI4J1unBQQyiLLqMgi8sv5A4LZY1Xrxm5yLfqha3fZSMcESJfYGonak8Jc-o9XGZJWMn30QUk?purpose=inline)
-
-Diffusion – Stable Diffusion
-
-Generates detailed images from text prompts.
 
 ## 7. Conclusion
 
@@ -947,9 +941,7 @@ It explains how data enters the model, how it is processed and how the final out
 
 ### Basic Architecture Diagram
 
-[Deep Learning vs Generative AI: Understanding the Key Differences](https://images.openai.com/static-rsc-4/Kp1kSNXVFCU5aEzful1OUdR8WSM-gDT82vI7fWgSOh8m_mH0nc4ObsoORrb3yW8fww8JSd-FMD-1VVlwTneHRspaD21l4n_9hpz7qb1O4e3uIRgsj2aj_cdu8JKfUM2GtGXtCA_vy3TcskHuFBSjGcxN_iUowJ6rpedMAX4F0Ug?purpose=inline)
-
-[eweek.com](https://www.eweek.com/artificial-intelligence/generative-ai-vs-deep-learning/?utm_source=chatgpt.com)
+<img width="2048" height="910" alt="image" src="https://github.com/user-attachments/assets/1542ba8d-5740-4b89-b7a3-9f9b68019733" />
 
 The basic architecture consists of the following stages:
 
@@ -1000,15 +992,10 @@ The basic architecture consists of the following stages:
 
 ## 3. Major Architectures Used in Generative AI
 
-There are four important architectures used in Generative AI.
+These are  important architectures used in Generative AI.
+<img width="5000" height="2812" alt="image" src="https://github.com/user-attachments/assets/75facf88-0270-488f-a702-f95b9ad3c427" />
+<img width="1536" height="864" alt="image" src="https://github.com/user-attachments/assets/bba9d695-3d72-4088-acd0-f7c8ef3a82f4" />
 
-[Transformers Explained: Why Attention Is Truly All You Need | by LM Po | Feb, 2026 | Medium](https://images.openai.com/static-rsc-4/BahVFOtN6ljbrhAUZB4xE5SHaPwfEjNb69pti_9lunLzor5t_-bIh6LnWOX9W68hwMgnAmIG5KxLEzZMRLlE2xZGQTFReCOpOSLJrhyF37j79YBvpiIS-r_A7TTnRIcwBhDZWPnZVEQHPlKixwmXy1FodBUasP4d6J-0WCSKjI8?purpose=inline)
-
-[What Is Generative AI (GenAI)? The Definitive Guide - Palo Alto Networks](https://images.openai.com/static-rsc-4/17gc9nZljMQGz5pcIDxlqv_BLzqGZBiG5x_vJ720nxrNnB-11Dn1dyjHPPdBi0jq5nb_5K4tDUH7o__1FhLn92Gwu1nQkxiZnH6oW0zsITpWiU4O6z7R726QSyV434gfYH5SQMqdEKKypr9J3xXKgoETeUPlMzqLHTIbMNCIqHk?purpose=inline)
-
-[Variational Autoencoders: Principles, Derivations, and Applications - FeynmanWiki](https://images.openai.com/static-rsc-4/xXkL_5jsBUM2lcHgKnnsPOUupJVpmQiL9vau9LsOaUE6g8OxQ03M2KMctC9TOdcfKFeBMx95TJDK1V6Er1PHE6QkWYSqfLvQokTXrR_RO6vsrcYCs6YAf6tKe1wqacjcVMn-IFu9Te2ZY7YEsct_DF9lNwxg-9e61SIBCQVLbvk?purpose=inline)
-
-4
 
 ### 1. Transformer Architecture
 
@@ -1056,9 +1043,7 @@ Applications: Digital art, image editing, video generation and visual effects.
 
 Generative AI follows a systematic process to convert user input into meaningful output.
 
-[How ChatGPT-Style Apps Really Work | by Robi Kumar Tomar | CodeToDeploy | Medium](https://images.openai.com/static-rsc-4/VazeGzR8qAM3nzHULc_4oUKrfR9hmUlTllChHWOJUN-j6ZdF2gf1Zue6dzqm6t6rNRlsx5GVTLJuCZm6NnidADb-wDXIXWS0KxlfzoAx-XqyEpWqMpeNxLmnrzMJuuR5HxNZJXBOEL4Ra3eXWdn4jni5wA01xJnZI794I0IgArc?purpose=inline)
-
-[medium.com](https://medium.com/codetodeploy/generative-ai-for-beginners-part-5-0140cee0da54?utm_source=chatgpt.com)
+<img width="1344" height="768" alt="image" src="https://github.com/user-attachments/assets/1b5f846b-980e-4717-a47f-a95678b5999c" />
 
 ### Step 1: User Input
 
@@ -1106,10 +1091,6 @@ Generative AI is transforming several industries by automating tasks, improving 
 
 ## 1. Healthcare
 
-[Artificial Intelligence | RSNA](https://images.openai.com/static-rsc-4/ZcHLjk5Ap1agXKR5x24s1jgxUwSIkwG-sEnwZGyLrfGdeGTFJYiZsXRuEiKB7lc9VpzX9NuqDYz_-qpzlGnOUSV2ccfCDsnc44nwfsqhaMPdjczCTXAcmAkKRvWfcLL6MLH4qrwN2zy-RjK7llrju3GCQP7SUQ5kvXd5KlzgZSU?purpose=inline)
-
-[rsna.org](https://www.rsna.org/artificial-intelligence?utm_source=chatgpt.com)
-
 Generative AI helps healthcare professionals with medical information processing, research and content generation.
 
 Applications:
@@ -1124,10 +1105,6 @@ Example: AI systems can generate synthetic medical scan images to support the tr
 Benefits: Saves time, supports research and improves medical workflow efficiency.
 
 ## 2. Education
-
-[AI in Education: Top Trends for October 2025 | AIapps](https://images.openai.com/static-rsc-4/S7otFzUgCfUhQLVD5VSl4LAGyuQBSVGpF8fbIalfyVyP8xvoKsbcC5exheoXNFgXOTlK1wv7X3fuGG555xnbdbEyNu998Pzf3-JGlupFVHaenXFUCCKK16_u0oxzWKFTNX-igvwNII-GBQejdVwbcR1kjPjS6EJP7OoS67eBxpk?purpose=inline)
-
-[aiapps.com](https://www.aiapps.com/blog/ai-education-trends/?utm_source=chatgpt.com)
 
 Generative AI improves the learning and teaching process.
 
@@ -1145,9 +1122,6 @@ Benefits: Makes learning easier, saves preparation time and supports individual 
 
 ## 3. Software Development
 
-[The Rise of AI-Assisted Coding: How It’s Transforming Software Development | by Adshaya Selvakumar | LinkIT | Jan, 2026 | Medium](https://images.openai.com/static-rsc-4/SOGrNKVkr5dGHW4p-l2qN9vw7JI88tr9e07Y-gab0ki66KGvSKCdVp55FGjiqYPHYkiBu2MorbATuF49QIsIV8XXyswCVQrF3pTZlC9KkC3LUug8I94r3tKmTzpyZcQmj4FdQL2B8EjzZen0_tC5x9wtN0CpYYP4ULzGwllRjfk?purpose=inline)
-
-[medium.com](https://medium.com/linkit-intecs/the-rise-of-ai-assisted-coding-how-its-transforming-software-development-06621f2e9893?utm_source=chatgpt.com)
 
 Generative AI helps software developers create, understand and improve computer programs.
 
@@ -1165,10 +1139,6 @@ Benefits: Reduces development time, improves productivity and supports debugging
 
 ## 4. Engineering
 
-[How generative AI reshapes art, music & design: insights & ethics | Teknalyze](https://images.openai.com/static-rsc-4/pb9Jns4ytfa0_uI7FdFWgZC4SvF0LsXgikPcZWMLwOhZ7rvxUPEgldirnx8ATjD_3HviZm3WSjy_0jojue-ea0gPuUM5Df_clzLnDTOdaBH6XmnDlCdHoSUfm-bXgVWt0NBaFcSWreyyFXW1R1W5Kc_7pfSOvQtysnslquanRZQ?purpose=inline)
-
-[teknalyze.com](https://www.teknalyze.com/artificial-intelligence/generative-ai-creative-work/?utm_source=chatgpt.com)
-
 Generative AI helps engineers design and develop new products and systems.
 
 Applications:
@@ -1184,11 +1154,6 @@ Example: Generative design software can suggest different lightweight structures
 Benefits: Reduces design time, encourages innovation and improves design efficiency.
 
 ## 5. Image Generation
-
-[Закат над сказочной страной с водопадами - 4К обои (3840x2160)](https://images.openai.com/static-rsc-4/iRSS8KLgjP9RTq7ctgE1U_azUjztSh3uYS1USZFPsw-OWAhsp83cMR-i52YfgP3PdqnA-ARjtg_dk-JWceed92kDpzAR_xd_g0rmemDdWZy_3YPreqCvNQ5KK67D11agWApl6l7EjZXtTxkQTgAocf4g09TaZXhVz96vOeo_12k?purpose=inline)
-
-[likeapic.com](https://likeapic.com/wallpaper/zakat-nad-skazochnoy-stranoy-s-vodopadami-351/3840x2160/?utm_source=chatgpt.com)
-
 Generative AI can create realistic and creative images using text descriptions.
 
 Applications:
@@ -1506,10 +1471,8 @@ Important points:
 Example:
 
 When a language model is trained with more parameters and a larger, high-quality dataset, it may produce more accurate answers and understand complex instructions better than a smaller model trained with fewer resources.
+<img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/ef71970d-4132-46d4-bce0-e495dc946191" />
 
-[Scaling Laws: How Power-Law Curves Predict LLM Size](https://images.openai.com/static-rsc-4/TjRo27GRKMEDa6zV-WnPaMc1GwJYPTSbs4emJ219XkXr3umcBE27N8ffGNTQ3XqQMILtLa5A8gzT_w-ti3wN6qf8-umSwzRcNhNhrN8P-Sc-mQ6idQbLNNPYPWioe_x7EHh3I7z0uXDHIQpXsc9khR_fyiNukeqkF0vMz12G2H0?purpose=inline)
-
-[bestaiweb.ai](https://www.bestaiweb.ai/what-are-scaling-laws-and-how-power-law-curves-predict-llm-performance/?utm_source=chatgpt.com)
 
 ## 4. Emergent Abilities in LLMs
 
@@ -1600,25 +1563,20 @@ Scaling does not solve every problem. Large models still have several limitation
 
 ## 9. Real-World Examples of Scaling
 
-[File:ChatGPT-Logo.svg - Wikimedia Commons](https://images.openai.com/static-rsc-4/iIwQvt6lHcQFgj7BguLsxseHBBrUFkMcXG5YNkmFFW4lfJVJx4j903Vj6U7eh4G1RxYAM5rcotiwXgmy1bpDjVeUGauxGKEaWacWqJ6UawIltioycNX9Ru1jiDHQJ6b718nA6kh8GV93DvtXMfEhj4O5IYd7IWQ4fxKOZEoQ6CY?purpose=inline)
-
 1\. GPT
 
 Larger GPT models can perform tasks such as content generation, summarization, coding, and question answering.
-
-[Gemini – Google’s AI Assistant for Smart Conversations & Productivity – Daidu.ai](https://images.openai.com/static-rsc-4/ptJvxAnbpHSz9oKwhiZCWU9MTvmPl997rGrZd4wqTgvg18xJPt8X3ASwCANnmkTN4cvnMJqTW5csYg-Wx_SyU_pL6waVf_YLfxdwlsLklzd2H22udrktQ6oVGaeLOvjKRl8y4lJCZGtYV2I-4GwcwBjAGawfKX-wZYbv6TzRORU?purpose=inline)
 
 2\. Google Gemini
 
 It can process different types of information, including text, images, and other supported media, and assist with complex tasks.
 
-[Bull Theory (@BullTheoryio) on X](https://images.openai.com/static-rsc-4/oKGxWNBt7fGvBVhXCj1CTv6SLDyoM6iYaL4pEMURc-RYZ4e-YKsqEkVDtejidr9h-1XfEvVRkIK2bJtp5pT399kk-eVfXcnvqvJu18PGx9wqoWX1kONWEnSth9Jthqef7EDVpeLogBpp8Vn0L8dUoZsJ2VecusLkcI8_MHSxEn8?purpose=inline)
+
 
 3\. Claude
 
 It can analyze documents, summarize information, write content, and assist with programming.
 
-[AI Server / KI Server GPU-Server TensorRT-LLM vLLM ChatGPT openai in Köln - Lindenthal | Grafikkarte gebraucht kaufen | kleinanzeigen.de](https://images.openai.com/static-rsc-4/rE-INeTgyWKKi4k6aXm8mG2IkaE81PL66tSP6RHvChJaYzq-4o8V9rlw3FAFwZ28onrxCaNbVD1dNG_PnHS_Vmy-hR2SAeAP9brG5AWgIDQgJEXLV_ZuzLhROMdQD_yQO8cS0yPzyRAkrv2M1ej4kKlPVL4nIQbiZptMv8SzfGo?purpose=inline)
 
 4\. Meta Llama
 
@@ -1850,42 +1808,8 @@ Building an LLM involves several stages, starting from collecting data and endin
 
 The major stages are:
 
-[Understanding the Workload Characteristics of Large Language Model Development | USENIX](https://images.openai.com/static-rsc-4/IX-_MWQnkIXiac_AnrTcx-wFkoDE5DTf6uWXgRiBjS7mknOPsmGrH68OMFNc2xWoMtTRSVUHYBbm-cdzBGbLaamU_uC5QpLKhuD74OsT1ZeQmwGWJnH5fOejUygiiXe8Z8MqGLhDkze_jpusKO2PdxCYRKA8H5rSliCcsrh9m0E?purpose=inline)
+<img width="1440" height="1062" alt="image" src="https://github.com/user-attachments/assets/db8fe61c-f44a-4916-9eef-568e984c0b46" />
 
-[usenix.org](https://www.usenix.org/publications/loginonline/understanding-workload-characteristics-large-language-model-development?utm_source=chatgpt.com)
-
-Overall Development Process:
-
-```
-        Data Collection
-              |
-              v
-       Data Preprocessing
-              |
-              v
-          Tokenization
-              |
-              v
-        Model Architecture
-              |
-              v
-          Pre-training
-              |
-              v
-          Fine-tuning
-              |
-              v
-             RLHF
-              |
-              v
-          Evaluation
-              |
-              v
-           Deployment
-              |
-              v
-       User Interaction
-```
 
 ## 3. Stages of LLM Development
 
@@ -2087,10 +2011,7 @@ Response A: Uses very complex technical language.
 Response B: Explains AI using simple language and an everyday example.
 
 Human reviewers may prefer Response B. The feedback helps train the model to produce more helpful answers.
-
-[GPT Models & Text Generation - Complete NLP Series Part 10 - Wasil Zafar](https://images.openai.com/static-rsc-4/uiP5ahc60dAulEuDUvd-QqrPM__g5G9g9rixXlIJABeO-MgvNv_aN7Bu9eH4eOIMbLAvfLq5eo3TGBW4H4C2GKqBzyuYjY16wYyvzuVY0p7RY4pIXFApt8DlgRiRI3FrRfyosbXCU0CIvXzvO39r3FwjdYmQeJnhq0HZz_eQOBY?purpose=inline)
-
-[wasilzafar.com](https://www.wasilzafar.com/pages/series/nlp/nlp-gpt-text-generation.html?utm_source=chatgpt.com)
+<img width="1312" height="816" alt="image" src="https://github.com/user-attachments/assets/73819015-8cf0-44fb-92ed-12f3605b557d" />
 
 Importance of RLHF:
 
@@ -2155,31 +2076,25 @@ ChatGPT is deployed as a web and mobile application. Users enter questions, and 
 
 ## 5. Applications of LLMs
 
-[ChatBot Genius - StartAiWorks](https://images.openai.com/static-rsc-4/kawWl8BEmoF-f9PZ03yOzpjVA2OKgVdyeaQb9jauGH3rWP4vVyXp9xUvZKGa2KtBOyPjBKni9Q8fVIO9gHST9fXyGwN3H5GVYZHSfMkwtxuwgDb-4gKZCnDj5RdDG11DAhb1yvWvu6SkJhOJm34S60ibRieoopjPntOq7p0TkF0?purpose=inline)
 
 1\. Chatbots and Customer Support
 
 Answer customer questions and provide automated assistance.
 
-[AI Code Assistant for Beginners: Start Coding Smarter | Futurism](https://images.openai.com/static-rsc-4/ihw6HD5OpToiqB6ByQKrQa6GcBitR-9Ht0uHuaxqfOZKg4Siakd0h-fvfjK3IbtvAI-nlmD-eBN_DJ9IehTPN19Ln59sZxNcKKEEI4Iq3j8RkI93bEjKaMl8LcrNYIrhDoY5e0rrsW7fYmOsy0kUdro5TfJD6fk42XY3dHPtqnk?purpose=inline)
 
 2\. Software Development
 
 Generate code, debug programs, and explain programming concepts.
 
-[Why AI Skills Are No Longer Optional for College Students in 2026\<!-- --> | SRDT Training](https://images.openai.com/static-rsc-4/JaAYbX7LqQZJrgvaFyIfBTV7dpYe21UXRAPBhJuDlK6pAkOO8RTEqAHANwdLFYFHSjkHZg5rkNZ-f8QzmSBV8_qJso8E86sY6Hv1KqzoBipQuIf4zazUFPIUWk3dB43z2vy18xan68be7LPg9nn34rwJn1TQUOb_W2GTsmCAwws?purpose=inline)
 
 3\. Education
 
 Explain difficult topics, summarize notes, and create practice questions.
 
-[Healthcare professional analyzing medical results with ai summary](https://images.openai.com/static-rsc-4/8FEVEJvy-hnLYt60LeWp08cQ1-TVO8RORoAV_3k42xQpB3f3VDBjPuyuuGNTT9UQ1M5h-UuiOJ4s_SUH4xrUMPlLJLNV5Ky2TjdvbRt9N3tEwKdELD-X5N2cQvCA5yh1Ib-rdn_QW6qsWo0a62v-XvXeDVVzt_lcQCK40QwBw8Arsw4zpOXRwc_KWORdkAM2?purpose=inline)
-
 4\. Healthcare
 
 Assist with medical documentation, summarization, and information retrieval under professional supervision.
 
-[AI language translation and multilingual communication concept. person using laptop with virtual bot, speech bubbles, chatbot, and global language text showing online translator and smart support.](https://images.openai.com/static-rsc-4/3-NWr4_2YZ3IQGh4tVZ6hGus4NyUmMTMlGCEt5rwqFxeGBCCIveyhFpCMFQctdSI5rwH09QDwbvuUyQIimIb7ZJk5Wo5AtKWvT06xnna9QtduDm7c6rpa4MrUwwIpv-rTm4aJWhwtPzfUmpL_j17gTH_8ufK7IiorW9heLeZB0qcJxJtJ0lXFMW7k05Bsuyw?purpose=inline)
 
 5\. Language Translation
 
