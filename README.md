@@ -77,7 +77,6 @@ Explain the foundational concepts of Generative AI in detail. Include its defini
 
 Generative Artificial Intelligence (Generative AI) is a branch of Artificial Intelligence (AI) that focuses on creating new and original content such as text, images, audio, videos, music and computer code by learning patterns from existing data.
 
-Unlike traditional AI, which mainly identifies, classifies or predicts information, Generative AI produces new content based on the instructions given by the user.
 
 Definition:
 
@@ -130,8 +129,6 @@ Step 6: Output Generation
 
 - The generated content is presented to the user.
 - The output may be text, images, music, videos or code.
-
-Example: When a user asks ChatGPT to write a poem, it processes the prompt and generates a new poem based on patterns learned during training.
 
 ## 3. Types of Generative AI
 
@@ -220,12 +217,10 @@ Example: ChatGPT predicts the next suitable token to generate a sentence.
 | -------------- | -------------------------------------- |
 | ChatGPT        | Text generation and question answering |
 | Google Gemini  | Text and multimodal content generation |
-| DALL-E         | Image generation                       |
 | Midjourney     | AI-based image creation                |
 | GitHub Copilot | Code generation                        |
 | Suno AI        | Music generation                       |
 | ElevenLabs     | AI voice generation                    |
-| Sora           | Video generation                       |
 
 ## 6. Advantages of Generative AI
 
@@ -292,15 +287,6 @@ Example: ChatGPT predicts the next suitable token to generate a sentence.
 - Helps create movie effects and game characters.
 - Example: AI-generated background music for videos.
 
-### 6. Marketing and Advertising
-
-- Creates advertisements, product descriptions and social media posts.
-- Helps businesses develop personalized marketing content.
-
-### 7. Manufacturing and Design
-
-- Generates new product designs and prototypes.
-- Helps engineers explore different design possibilities.
 
 ## 9. Difference Between Traditional AI and Generative AI
 
@@ -390,15 +376,6 @@ Compress data into a compact "summary" (latent space) and then reconstruct or cr
 ### e) Diffusion Models
 Start with pure random noise and gradually "clean" it into a meaningful image, guided by a text prompt. Like a sculptor revealing a statue from a block of stone. Power Stable Diffusion, Midjourney, and many video models.
 
-### f) Autoregressive Models
-Generate output one piece at a time, each new piece depending on those before it. This is how most LLMs write text.
-
-### g) Supporting Techniques
-- **Fine-tuning:** adapting a general model to a specific task or domain.
-- **RLHF (Reinforcement Learning from Human Feedback):** using human ratings to improve behavior.
-- **RAG (Retrieval-Augmented Generation):** letting the model look up facts from documents before answering, which reduces mistakes.
-- **Prompt engineering:** crafting clear instructions to get better outputs.
-
 ---
 
 ## 5. Popular Examples
@@ -421,8 +398,6 @@ Generate output one piece at a time, each new piece depending on those before it
 - **Accessibility:** lets non-experts write code, design graphics, or translate languages.
 - **Cost saving:** automates repetitive content work.
 - **24/7 availability:** always ready for support and assistance.
-- **Data augmentation:** creates synthetic data for training other AI systems.
-
 ---
 
 ## 7. Limitations and Challenges
@@ -430,7 +405,6 @@ Generate output one piece at a time, each new piece depending on those before it
 - **Hallucinations:** models can state false information confidently, since they predict plausible text rather than verify truth.
 - **Bias:** they can reflect biases present in training data.
 - **Lack of true understanding:** they recognize patterns rather than reason like humans in every case.
-- **Knowledge cutoff:** training data has an end date unless tools like search are added.
 - **Copyright and ownership concerns:** questions about training data and who owns generated content.
 - **Misuse risks:** deepfakes, misinformation, phishing, and scams.
 - **Privacy concerns:** sensitive data may be exposed if handled carelessly.
@@ -447,8 +421,6 @@ Generate output one piece at a time, each new piece depending on those before it
 **Software development:** code completion, debugging, test generation, documentation.
 
 **Entertainment and media:** scriptwriting, game character design, music composition, special effects.
-
-**Design and architecture:** logo ideas, interior layouts, product prototypes.
 
 **Finance:** report summarization, fraud-pattern simulation, customer assistance.
 
@@ -475,9 +447,7 @@ Explain the  architectures used in Generative AI, focusing on Transformer archit
 ## 1. Introduction
 
 Generative Artificial Intelligence (Generative AI) uses different deep learning architectures to create new content such as text, images, audio, videos and computer code.
-
 An AI architecture is the basic structure of a model that explains how it processes input data, learns patterns and generates new output.
-
 The four major architectures used in Generative AI are:
 
 1. Transformer Architecture
@@ -495,11 +465,7 @@ Each architecture follows a different approach to generating new content.
 
 ### Definition
 
-A Transformer is a deep learning architecture mainly used to process and generate sequential data such as text, audio and code.
-
-It was introduced in the research paper Attention Is All You Need in 2017.
-
-Transformers use a mechanism called Self-Attention to understand the relationship between different words in a sentence.
+A Transformer is a deep learning architecture mainly used to process and generate sequential data such as text, audio and code.It was introduced in the research paper Attention Is All You Need in 2017.Transformers use a mechanism called Self-Attention to understand the relationship between different words in a sentence.
 
 Example: ChatGPT uses a Transformer-based architecture to understand questions and generate human-like responses.
 
@@ -549,8 +515,6 @@ Note: Some Transformer models use both encoder and decoder, while others use onl
 6. The decoder predicts the next suitable token.
 7. The process continues until the complete response is generated.
 
-Example: When a user enters "Artificial Intelligence is...", the Transformer predicts suitable next words and generates a meaningful sentence.
-
 ### Advantages
 
 - Understands long-range relationships between words.
@@ -583,7 +547,6 @@ Example: When a user enters "Artificial Intelligence is...", the Transformer pre
 ### Definition
 
 Generative Adversarial Networks (GANs) are deep learning models that generate realistic data using two neural networks that compete against each other.
-
 The two main networks are:
 
 1. Generator
@@ -605,11 +568,6 @@ Example: GANs can generate realistic human face images that do not belong to any
 - Classifies the input as real or fake.
 - Helps the Generator improve its output.
 
-3\. Random Noise
-
-- A random numerical input provided to the Generator.
-- Acts as the starting point for generating new content.
-
 ### Working Principle
 
 1. Random noise is provided to the Generator.
@@ -620,7 +578,6 @@ Example: GANs can generate realistic human face images that do not belong to any
 6. The Generator improves its ability to create realistic images.
 7. This competition continues until the generated output becomes realistic.
 
-Example: A GAN generates a human face. The Discriminator checks whether it looks like a real face. Based on the feedback, the Generator improves the image.
 
 ### Advantages
 
@@ -642,8 +599,7 @@ Example: A GAN generates a human face. The Discriminator checks whether it looks
 - Image enhancement
 - Image-to-image translation
 - Video generation
-- Fashion design
-- Synthetic data generation
+eneration
 
 ## 4. Variational Autoencoders (VAEs)
 
@@ -716,8 +672,7 @@ Example: A VAE is trained using handwritten digit images from 0 to 9. It learns 
 - Face generation
 - Data compression
 - Image reconstruction
-- Anomaly detection
-- Medical image analysis
+
 
 ## 5. Diffusion Models
 
@@ -768,9 +723,6 @@ Example: When the user enters "A cat sitting under a tree", the diffusion model 
 - Digital art creation
 - Image editing
 - Video generation
-- Medical image synthesis
-- Animation and visual effects
-
 
 ## 6. Real-World Examples
 
@@ -801,17 +753,13 @@ Generates detailed images from text prompts.
 ## 7. Conclusion
 
 Generative AI uses different architectures to create new and meaningful content. Transformers are mainly used for text and language generation, GANs generate realistic data through competition between two networks, VAEs generate new data using latent representations, and Diffusion Models generate high-quality content by gradually removing noise.
-
-Each architecture has its own working principle, advantages and disadvantages. These architectures play an important role in applications such as chatbots, image generation, healthcare, education, entertainment and software development.
-
-Thus, Transformer, GAN, VAE and Diffusion Models are four important architectures that form the foundation of modern Generative AI systems.
+Each architecture has its own working principle, advantages and disadvantages. These architectures play an important role in applications such as chatbots, image generation, healthcare, education, entertainment and software development.Thus, Transformer, GAN, VAE and Diffusion Models are four important architectures that form the foundation of modern Generative AI systems.
 
 
 ### Output: Claude
 # Architectures Used in Generative AI
 
 Generative AI models are built on a few core architectures. Each one answers the same question, "how can a machine create new data?", in a different way.
-
 ---
 
 ## 1. Transformer Architecture
@@ -819,7 +767,6 @@ Generative AI models are built on a few core architectures. Each one answers the
 ### Working principle
 A Transformer processes data by looking at **all parts of the input at once** and deciding which parts matter most to each other. This mechanism is called **attention**. Transformers were introduced in 2017 and are the foundation of modern language models like GPT, Claude, and Gemini.
 
-*Example:* In the sentence "The trophy didn't fit in the suitcase because **it** was too big," attention helps the model work out that "it" means the trophy, not the suitcase.
 
 ### Main components
 - **Tokenizer and embeddings:** Text is split into tokens, and each token is turned into a list of numbers that captures its meaning.
@@ -827,7 +774,6 @@ A Transformer processes data by looking at **all parts of the input at once** an
 - **Self-attention:** Every token scores how relevant every other token is to it. These scores are calculated using three vectors called **Query, Key, and Value**.
 - **Multi-head attention:** Several attention "heads" run side by side, each learning a different relationship (grammar, meaning, references).
 - **Feed-forward layers:** Process the attended information further.
-- **Residual connections and normalization:** Keep training stable.
 - **Encoder and decoder:** The encoder understands input (used in BERT). The decoder generates output one token at a time (used in GPT and Claude). Translation models use both.
 
 ### How it generates text
@@ -970,16 +916,7 @@ Your prompt ("a red bicycle on a beach at sunset") is converted into embeddings,
 
 ---
 
-## 7. How They Work Together
-
-Modern systems often **combine** these architectures:
-- **Stable Diffusion** uses a VAE (to compress images), a Transformer (to understand your text prompt), and a diffusion model with a U-Net (to create the image).
-- **Video generators** like Sora combine Transformers with diffusion.
-- **Multimodal chatbots** use Transformers to handle both images and text.
-
----
-
-## 8. Quick Summary
+## 7. Quick Summary
 
 | Architecture | One-line takeaway |
 |---|---|
@@ -1002,9 +939,7 @@ Explain Generative AI architecture and its real-world applications. Describe how
 
 ## 1. Introduction
 
-Generative Artificial Intelligence (Generative AI) is a branch of Artificial Intelligence that creates new content such as text, images, audio, videos, music and computer programs by learning patterns from existing data.
-
-It uses Machine Learning (ML), Deep Learning (DL) and neural network architectures to understand input data and generate new outputs.
+Generative Artificial Intelligence (Generative AI) is a branch of Artificial Intelligence that creates new content such as text, images, audio, videos, music and computer programs by learning patterns from existing data.It uses Machine Learning (ML), Deep Learning (DL) and neural network architectures to understand input data and generate new outputs.
 
 Examples:
 
@@ -1021,7 +956,6 @@ Generative AI is widely used in healthcare, education, software development, eng
 ### Definition
 
 Generative AI architecture refers to the structure of deep learning models and their components that process input data, learn patterns and generate new content.
-
 It explains how data enters the model, how it is processed and how the final output is produced.
 
 ### Basic Architecture Diagram
@@ -1177,7 +1111,6 @@ Example: "Write a paragraph about Artificial Intelligence."
 Example:
 
 Input: "Explain Artificial Intelligence in simple words."
-
 Output: The AI generates a simple explanation of Artificial Intelligence.
 
 # 5. Real-World Applications of Generative AI
@@ -1329,10 +1262,6 @@ Generative AI plays an important role in modern technology for the following rea
 
 6\. Cost Reduction: Reduces the time and resources needed for content creation and some development tasks.
 
-7\. Better Decision Support: Helps professionals summarize information and explore possible solutions.
-
-8\. Technological Advancement: Supports the development of intelligent applications, AI assistants and advanced software systems.
-
 ## 8. Challenges and Limitations of Generative AI
 
 Although Generative AI offers many benefits, it also has some limitations.
@@ -1348,11 +1277,8 @@ Although Generative AI offers many benefits, it also has some limitations.
 ## 9. Conclusion
 
 Generative AI is an important advancement in modern Artificial Intelligence. It uses architectures such as Transformers, GANs, VAEs and Diffusion Models to process input data, learn patterns and generate new content.
-
 It has several real-world applications in healthcare, education, software development, engineering, image generation and Natural Language Processing.
-
 Generative AI improves productivity, supports creativity, automates tasks and encourages innovation across different industries. However, challenges such as privacy, bias, incorrect information and computational cost must be addressed.
-
 Thus, Generative AI is transforming modern technology by changing how people create content, learn, communicate, design and develop intelligent applications.
 
 ### Output: Claude
@@ -1499,8 +1425,6 @@ Let us follow a text prompt such as *"Explain photosynthesis to a child."*
 4. **Enables personalization:** Adapts learning, shopping, and services to each individual.
 5. **Improves accessibility:** Helps people with disabilities and language barriers.
 6. **Creates new industries and jobs:** Prompt design, AI safety, model evaluation, and AI-assisted creative work.
-7. **Reduces costs:** Lowers the cost of content creation and support at scale.
-8. **Works as a general-purpose technology:** Like electricity or the internet, it can be applied across almost every sector.
 
 ---
 
@@ -1511,9 +1435,6 @@ Let us follow a text prompt such as *"Explain photosynthesis to a child."*
 - **Privacy and security:** Sensitive data needs careful handling.
 - **Copyright concerns:** Debates on training data and ownership of outputs.
 - **Misuse:** Deepfakes, misinformation, scams.
-- **Energy and cost:** Large models need significant computing power.
-- **Over-reliance:** Humans should stay in the loop, especially in healthcare, engineering, and education.
-
 ---
 
 ## 8. Summary
@@ -1653,13 +1574,6 @@ Example: A larger LLM may solve a problem involving several mathematical steps m
 
 Example: A large LLM can summarize a research paper and explain its main ideas in simple language.
 
-### D. Better Content Generation
-
-- Larger models can generate more detailed and meaningful content.
-- They can create reports, emails, stories, summaries, and computer programs.
-- They can follow complex prompts more effectively.
-
-Example: ChatGPT can generate a structured project report based on a user's instructions.
 
 ## 6. Impact of Scaling on Computational Cost
 
@@ -1694,9 +1608,6 @@ Scaling does not solve every problem. Large models still have several limitation
 | Hardware requirements | Requires powerful GPUs and TPUs.                              |
 | Training expenses     | Needs significant financial investment.                       |
 | Data availability     | Collecting large amounts of quality data is difficult.        |
-| Energy consumption    | Large-scale training consumes high electricity.               |
-| Model optimization    | Balancing parameters, data, and computation is difficult.     |
-| Environmental impact  | High energy usage can increase carbon emissions.              |
 | Security and privacy  | Protecting user information and training data is challenging. |
 | Evaluation            | Measuring reasoning and overall model quality is difficult.   |
 
@@ -1740,9 +1651,7 @@ Different model sizes provide options for applications with different performanc
 ## 11. Conclusion
 
 Scaling plays an important role in improving the capabilities of Large Language Models. Increasing model parameters, training data, and computational resources can improve accuracy, reasoning, language understanding, and content generation.
-
 Scaling laws help researchers understand the relationship between these factors and model performance. However, scaling also increases training costs, energy consumption, hardware requirements, and other challenges.
-
 Therefore, the goal is not simply to build the largest model, but to develop an efficient, accurate, reliable, and responsible LLM.
 
 ### Output: Claude
@@ -1947,9 +1856,6 @@ LLMs are trained using huge amounts of text data such as books, websites, articl
 
 Examples: ChatGPT, Google Gemini, Claude, and Meta Llama.
 
-Example:
-
-If a user asks, "Explain Artificial Intelligence in simple words", an LLM understands the question and generates a meaningful answer based on patterns learned during training.
 
 ## 2. How is an LLM Built?
 
@@ -2259,9 +2165,6 @@ ChatGPT is deployed as a web and mobile application. Users enter questions, and 
 | Model Architecture | Design the internal structure of the LLM.            |
 | Pre-training       | Learn general language patterns and knowledge.       |
 | Fine-tuning        | Adapt the model for specific tasks and instructions. |
-| RLHF               | Improve responses using human preferences.           |
-| Evaluation         | Test accuracy, safety, and performance.              |
-| Deployment         | Make the model available to users.                   |
 
 ## 5. Applications of LLMs
 
