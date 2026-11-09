@@ -248,12 +248,9 @@ Example: ChatGPT predicts the next suitable token to generate a sentence.
 
 
 ## 8. Real-World Applications of Generative AI
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/83067424-b396-4310-9114-898e869d5fcc" />
 
-https://images.openai.com/static-rsc-4/TBk2Sz6bYZxCKo6p2UwbwW11XeaePLs-VQ28wDf6Y5_jH_wWY1n99qe44Ig3AhTQAUxy3qrv3FWhe3d_N-wqfg1YkPDoiX9e5di3IVy6d2iz_AVHZw5cmLS5pMwCQIOwH-p8koVSkxHRyJ189kQus0CgCEajzTHwpMvS20ipggY?purpose=inline
-
-[AI in Education: Top Trends for October 2025 | AIapps](https://images.openai.com/static-rsc-4/S7otFzUgCfUhQLVD5VSl4LAGyuQBSVGpF8fbIalfyVyP8xvoKsbcC5exheoXNFgXOTlK1wv7X3fuGG555xnbdbEyNu998Pzf3-JGlupFVHaenXFUCCKK16_u0oxzWKFTNX-igvwNII-GBQejdVwbcR1kjPjS6EJP7OoS67eBxpk?purpose=inline)
-
-[Mutation du développement logiciel en 2026 : de la Production de Code à l’Ingénierie de Systèmes](https://images.openai.com/static-rsc-4/ZJLzyBcPVzQoSOJJtTr3kuIxX5aUtsneMzN2Pm1YYK4PIbpeISeyXkfw5rpD5lI0KLsgUuUHdg6HN6nZF6Ppa1tTPWn2gxctQy7pp4DPK0dDZMNS9ZTPYyzo0vfEcizKK1eVqUx9QTSQuTd2R2FV24VLBFpqd5SqN336jen1IYA?purpose=inline)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/34259100-1a87-4c2c-b52b-8555eaec8e07" />
 
 
 ### 1. Healthcare
@@ -457,10 +454,7 @@ The four major architectures used in Generative AI are:
 Each architecture follows a different approach to generating new content
 
 ## 2. Transformer Architecture
-
-<https://images.openai.com/static-rsc-4/b1wZ30_ofAWmZD1o2sO2FFsbv5dZOXWREMRjIyOPBl02GfYLS0axCjORwPaBVuhDfPnHXSKIvL8KWwWB6dR-5cbm1H0BQy4oVz8vlPCY_MX0PJlI4-MY40weVC60CGswMUoDpFoOd4IXTVV0kEOQqGybQOixW_Q4SgLlvZFF3gM?purpose=inline/>
-
-[lbourdois.github.io](https://lbourdois.github.io/blog/nlp/Transformer/?utm_source=chatgpt.com)
+<img width="1415" height="804" alt="image" src="https://github.com/user-attachments/assets/d617ed70-e104-4cd4-8586-4a3d17949002" />
 
 ### Definition
 
@@ -539,9 +533,7 @@ Note: Some Transformer models use both encoder and decoder, while others use onl
 
 ## 3. Generative Adversarial Networks (GANs)
 
-[GANs: Generators vs. Discriminators - Euron Daily | Euron Community](https://images.openai.com/static-rsc-4/VIdoBJKqDBnUMrlPwvwsfgN4zg4J9XzYKd9rWC3PFXwd1JPrEKMmesG8CfDU_Ow5LVwmVjH0ztzDciPhy14622UuNnLJxJ3fLbaR5Tl89k6x0bX00VK4cqX3vGd8fEDVFzxmV_zkzqsop2AThN0182OfzAPid2nAydqXsbyEhYI?purpose=inline)
-
-[euron.one](https://euron.one/community/posts/a1fe5194-578d-4202-9200-3a584b389a17?utm_source=chatgpt.com)
+<img width="1408" height="768" alt="image" src="https://github.com/user-attachments/assets/0ea11e56-3c96-4d89-b7e8-fb9409b4f5db" />
 
 ### Definition
 
@@ -601,10 +593,7 @@ Example: GANs can generate realistic human face images that do not belong to any
 eneration
 
 ## 4. Variational Autoencoders (VAEs)
-
-[What Is Generative AI (GenAI)? The Definitive Guide - Palo Alto Networks](https://images.openai.com/static-rsc-4/49F_c-rA7desQJfybEjddsXsHZil2LpWEXodYdG0ss08EaDwVWhxMmxY_OdYOAiSBJHgfhXds_ubagWH6nWIvOXOXmzQoXC5bPrrrICGSvFs5kAg3yOrTMPHRM4IMCO6bzbGBjtgj_42-cuwlcztVHcTlX4I_ZP0JR85NF29dzQ?purpose=inline)
-
-[paloaltonetworks.com](https://www.paloaltonetworks.com/cyberpedia/what-is-generative-ai?utm_source=chatgpt.com)
+<img width="5000" height="2812" alt="image" src="https://github.com/user-attachments/assets/b7d573ed-2ea3-475a-89f8-0d0e93ee15a4" />
 
 ### Definition
 
@@ -675,9 +664,7 @@ Example: A VAE is trained using handwritten digit images from 0 to 9. It learns 
 
 ## 5. Diffusion Models
 
-[What Are the Types of Generative AI: Examples and Uses | VOSU.AI](https://images.openai.com/static-rsc-4/1j_1BJHLI5Sfvby94YczK8lIKvG-FN0tiFS7lDoqx7UV8Jmz5GPgcSzxeiGNRy87wS9CdpZDA2CIzMuU5xfncM5L90Rwd2Bn1N9JPnOUQnTBChhR-JpNuqkTxy_II2hdZx3o60pHCiujH34LTMJDO3N5AkX0HCuQzwfl2t4Iw1k?purpose=inline)
-
-[vosu.ai](https://vosu.ai/artificial-intelligence/generative/types?utm_source=chatgpt.com)
+<img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/abc27539-5d78-4729-8c27-323cc9e63cbc" />
 
 ### Definition
 
@@ -725,7 +712,8 @@ Example: When the user enters "A cat sitting under a tree", the diffusion model 
 
 ## 6. Real-World Examples
 
-[Download High-Quality ChatGPT Icon PNG and Logo](https://images.openai.com/static-rsc-4/AuCXpzjbSGcXdO2oL-Bs0h986pWGWgDqYucT3wZC2fcOsI0fE1SvaMmMyqwC7bJN_PxtufaBNeirQNx638Q7qQUHwUEhosEkZ5lkpIVy5a173dveYVVsL-MNLgsSN0No0D7VX6qCL27kEmxElpA-eTyC93bAUGRrTkbWmBKYMBk?purpose=inline)
+<img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/c7d306a5-688c-4171-808d-32714f103926" />
+
 
 Transformer – ChatGPT
 
