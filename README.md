@@ -256,6 +256,7 @@ Example: ChatGPT predicts the next suitable token to generate a sentence.
 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/dc295d1b-26bb-48fe-ab82-eaf2beaede61" />
 
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/424f9711-b326-4f73-860b-30d1589d0385" />
 
 ### 1. Healthcare
 
